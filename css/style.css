@@ -1,31 +1,47 @@
 header {
   background-color: yellow;
-
-}
-.start_bootstrap {
+ }
+ .start_bootstrap {
   height: 100%;
   background-color: red;
-}
-.top_header {
+ }
+ .top_header {
   background-color: purple;
   padding: 0;
   height: 100px;
-}
-.bottom_header {
+ }
+ .bottom_header {
   background-color: blue;
   height: 80%;
-
-}
-.center_profile {
+ }
+ .center_profile {
   background-color: green;
   height: 400px;
-}
+ }
+/* FINE HEADER */
 
-main {
+/* INIZIO MAIN */
+ .portfolio {
   height: 500px;
   background-color: red;
   text-align: center;
-}
-.image_portfolio {
+ }
+ .image_portfolio {
   margin: 10px;
+ }
+ .about {
+   background-color: blue;
+   height:500px;
+   text-align: center;
+   position: relative;
+ }
+ .col_about {
+   background-color: pink;
+   height: 300px;
+   width: 700px;
+ }
+.button_download {
+  background-color: green;
+  width: 100px;
+  height: 50px;
 }
