@@ -1,13 +1,31 @@
 header {
   background-color: yellow;
-  height: 500px;
+
 }
 .start_bootstrap {
   height: 100%;
-  background-color: red
+  background-color: red;
 }
 .top_header {
   background-color: purple;
   padding: 0;
   height: 100px;
+}
+.bottom_header {
+  background-color: blue;
+  height: 80%;
+
+}
+.center_profile {
+  background-color: green;
+  height: 400px;
+}
+
+main {
+  height: 500px;
+  background-color: red;
+  text-align: center;
+}
+.image_portfolio {
+  margin: 10px;
 }
