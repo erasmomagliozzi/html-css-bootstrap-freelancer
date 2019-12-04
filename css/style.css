@@ -197,6 +197,18 @@ form {
 
 /* INIZIO FOOTER */
 footer {
-  background-color: blue;
-  height: 500px;
+  background-color: #2C3E50;
+}
+.title_p_footer {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.p_footer {
+  color: white;
+  text-align: center;
 }
