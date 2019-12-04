@@ -198,6 +198,7 @@ form {
 /* INIZIO FOOTER */
 footer {
   background-color: #2C3E50;
+  height: 600px;
 }
 .title_p_footer {
   color: white;
@@ -211,4 +212,18 @@ footer {
 .p_footer {
   color: white;
   text-align: center;
+}
+.text_skyblue {
+  color:#00b4ad;
+}
+.logo_social {
+  border: solid 2px white;
+  border-radius: 100%;
+  padding: 22px;
+}
+.bottom_footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  bottom:0;
 }
