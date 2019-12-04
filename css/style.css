@@ -173,14 +173,16 @@ header {
    margin: 0 auto;
    text-align: center;
  }
- .form {
-  width: 500px;
+form {
   padding-top: 20px;
  }
  .margin_bottom_form {
    margin-bottom: 20px;
-   width: 500px;
-   max-width: 100%;
+   border: none;
+ }
+ .form_message {
+   height: 200px;
+
  }
  .title_contact_me {
    color: #2C3E50;
