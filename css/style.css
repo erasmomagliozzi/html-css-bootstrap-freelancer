@@ -7,12 +7,12 @@ header {
  .top_header {
    background-color: #2C3E50;
    width: 100%;
-   height: 100px;
    line-height: 100px;
    font-weight:700;
    position: fixed;
    top: 0;
    left:0;
+   z-index: 1000;
  }
  .start_logo {
    color: white;
@@ -29,8 +29,12 @@ header {
    font-size: 20px;
    padding: 10px;
  }
- p {
+ p.title {
    text-transform: uppercase;
+ }
+ p.subtitle {
+   font-size: 15px;
+   padding: 40px 0;
  }
 
 .btn {
@@ -41,30 +45,30 @@ header {
   font-weight:700;
 }
 .divisore {
-  display: block;
-  
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+
 }
 .line {
   background-color: white;
   height: 2px;
   width: 100%;
-  max-width: 100px;
-  display: inline-block;
+  max-width: 200px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 .glyphicon-star {
-  vertical-align: middle;
+  line-height: 5px;
 }
  .bottom_header {
    margin-top: 100px;
   background-color:#00b4ad ;
-  height: 700px;
   text-align: center;
  }
  .center_profile {
    width: 50%;
-   height: 100%;
-   background-color: blue;
    margin: 0 auto;
    font-weight: 800;
    font-size: 40px;
@@ -81,12 +85,40 @@ header {
 
 /* INIZIO MAIN */
  .portfolio {
-  height: 500px;
-  background-color: red;
   text-align: center;
+ }
+ .title_portfolio{
+   color: #2C3E50;
+   font-size: 40px;
+   text-transform: uppercase;
+   padding-top: 30px;
+   font-weight: 800;
+ }
+ .divisore_portfolio {
+   display: flex;
+   margin: 0 auto;
+   width: 26%;
+   padding: 10px;
+ }
+ .size_star {
+   font-size: 45px;
+   color: #2C3E50;
+ }
+ .line_portfolio {
+   background-color: #2C3E50;
+   height: 2px;
+   width: 100%;
+   max-width: 200px;
+   margin-right: 10px;
+   margin-left: 10px;
  }
  .image_portfolio {
   margin: 10px;
+ }
+ .img_port {
+   max-width: 100%;
+   border-radius: 10%;
+   padding:15px;
  }
  .about {
    background-color: blue;
