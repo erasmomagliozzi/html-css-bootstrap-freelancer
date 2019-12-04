@@ -36,13 +36,12 @@ header {
    font-size: 15px;
    padding: 40px 0;
  }
-
-.btn {
-  margin-right: 30px;
-}
 .btn-primary {
   background-color: #00b4ad;
   font-weight:700;
+}
+.btn_top_header {
+  margin-right: 30px;
 }
 .divisore {
   display: flex;
@@ -84,6 +83,7 @@ header {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+/* PORTFOLIO */
  .portfolio {
   text-align: center;
  }
@@ -120,31 +120,77 @@ header {
    border-radius: 10%;
    padding:15px;
  }
+ /* FINE PORTFOLIO */
+
+ /* ABOUT */
  .about {
-   background-color: blue;
-   height:500px;
+   background-color: #00b4ad;
    text-align: center;
-   position: relative;
  }
- .col_about {
-   background-color: pink;
-   height: 300px;
+ .title_about {
+   color: white;
+   font-size: 40px;
+   text-transform: uppercase;
+   padding-top: 30px;
+   font-weight: 800;
  }
- .button_download {
-  background-color: green;
-  width: 100px;
-  height: 50px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+ .star_about {
+   font-size: 45px;
+   color: white;
  }
+ .about_text {
+   padding-top: 30px;
+   color: white;
+ }
+
+@media screen and (min-width: 768px) {
+  .wrapper_md_40 {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper_md_80 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+}
+
+.button_download {
+  padding: 30px;
+  text-align: center;
+}
+.btn-download {
+  border-color: white;
+  padding: 20px;
+}
+/* FINE ABOUT */
+/* INIZIO CONTACT ME */
  .contact_me {
-   height: 500px;
-   background-color: yellow;
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
  }
  .form {
   width: 500px;
+  padding-top: 20px;
  }
+ .margin_bottom_form {
+   margin-bottom: 20px;
+   width: 500px;
+   max-width: 100%;
+ }
+ .title_contact_me {
+   color: #2C3E50;
+   font-size: 40px;
+   text-transform: uppercase;
+   padding-top: 30px;
+   font-weight: 800;
+   text-align: center;
+ }
+ /* FINE CONTACT ME */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
